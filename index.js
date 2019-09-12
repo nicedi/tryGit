@@ -1,5 +1,5 @@
-var express = require('express');
-var app = express();
+const express = require('express');
+const app = express();
 app.set('port', 3000);
 
 var handlebars = require('express-handlebars').create({defaultLayout: 'main'});
